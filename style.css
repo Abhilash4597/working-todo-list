@@ -49,10 +49,18 @@ main {
     text-align: justify;
     border-radius: 5px;
     position: relative;
+    margin-top: 10px;
+    user-select: none;
 }
 
 #to_do_box li i {
     position: absolute;
     right: 10px;
     top: 10px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: black;
+    background-color: rgb(90, 211, 142) !important;
 }
